@@ -6,6 +6,8 @@ html {
     scroll-behavior: smooth;
     /* width: 100vh; */
 }
+
+/* --------------------Styling Hero-section--------------------- */
 .hero-content {
     font-family: "Tagesschrift", system-ui;
     font-weight: 400;
@@ -114,43 +116,7 @@ html {
     background: rgba(232, 216, 219, 0.186);
     cursor: pointer;
 }
-.mobile_menu {
-    display: none;
-    height: 40px;
-    line-height: 40px;
-    background-color: magenta;
-}
-.mobile_menu ul {
-    display: flex;
-    justify-content: center;
-}
-.mobile_menu ul li {
-    list-style: none;
-    padding: 0 5px 0 5px;
-}
-.mobile_menu ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-.mobile_menu ul li a:hover {
-    background: rgba(232, 216, 219, 0.186);
-}
-@media screen and (max-width: 768px) {
-    .mobile_menu {
-        display: block;
-    }
-    .navbar-content ul {
-        display: none;
-    }
-    html {
-        font-size: 95%;
-    }
-}
-@media screen and (max-width: 360px) {
-    html {
-        font-size: 70%;
-    }
-}
+
 /* -------------Menu-Section---------- */
 .menu {
     padding: 25px 0 25px 0;
